@@ -1,0 +1,27 @@
+#include<stdio.h>
+struct book
+{
+	int book_id;
+	float price;
+};
+main()
+{
+	struct book b1,b2;
+	printf("Enter 1st book deatils: ");
+	printf("\nEnter 1st book id: \n");
+	scanf("%d",&b1.book_id);
+	printf("\nEnter 1st book price: ");
+	scanf("%f",&b1.price);
+	printf("Enter 2nd book deatils: ");
+	printf("\nEnter 2nd book id: \n");
+	scanf("%d",&b2.book_id);
+	printf("\nEnter 2nd book price: ");
+	scanf("%f",&b2.price);
+	printf("First book deatils are: \n");
+	printf("Book id is : %d",b1.book_id);
+	printf("Book price is %f:",b1.price);
+	printf("Second book deatils are: \n");
+	printf("Book id is : %d",b2.book_id);
+	printf("Book price is : %f",b2.price);
+	
+}
